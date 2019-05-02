@@ -1,5 +1,7 @@
 # Etsy PHP SDK for Laravel
 
+This is a fork of Evgeni Nurkov's etsy-php-laravel using a different way to use Session.
+
 Based on [Etsy Rest API description](http://www.etsy.com/developers/documentation/reference/apimethod) output, this wrapper provides a simple client with all available methods on Etsy API (thanks to the `__call` magic PHP method!), validating its arguments on each request (Take a look to [methods.json](https://github.com/gentor/etsy-php-laravel/blob/master/src/methods.json) for full list of methods and its arguments).
 
 Used some code from [etsy-php](https://github.com/inakiabt/etsy-php) by **Iñaki Abete**
